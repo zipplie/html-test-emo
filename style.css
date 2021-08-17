@@ -1,0 +1,41 @@
+html, body {
+    width: 100%;
+    padding: 0px;
+}
+#wrapper {
+    width: 800px;
+}
+div.debug {
+    border: 1px solid #f0f;
+}
+
+#header {
+    height: 260px;
+    padding: 10px 0px 0px 10px;
+}
+#menu {
+    height: 50px;
+    background: #f0f;;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#menu a, #menu span {
+    font-size: 18pt;
+    text-decoration: none;
+    padding: 15px;
+    color: #000;
+}
+
+#menu a:hover, #menu span {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;;
+
+}
+
+#content {
+    padding: 30px 100px 30px 100px;
+    text-align: justify;
+}
