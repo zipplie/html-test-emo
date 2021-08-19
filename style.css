@@ -1,17 +1,19 @@
 html, body {
-    width: 98%;
+    width: 99.3%;
     padding: 0px;
     background-color: gray;
+    align-items: center;
 }
 
 #wrapper {
-    width: 1265px;
+    width: 100%;
 }
 
 #header {
     background-color: #a1d5b7;
     height: 64px;
     padding: 10px 0px 0px 0px;
+    width: 100%;
 }
 
 #menu {
@@ -20,14 +22,16 @@ html, body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 5px;
+    width: 100%;
 }
 
 #menu a, #menu span {
-    font-size: 18pt;
+    font-size: 19pt;
     text-decoration: none;
     padding: 15px;
     color: #000;
     border-radius: 9px;
+    width: 100%;
 }
 
 #menu a:hover, #menu span {
@@ -35,21 +39,19 @@ html, body {
     color: #000;
     text-decoration: none;
     font-weight: bold;;
+    width: 100%;
 
 }
 
 #content {
-    padding: 30px 0px 602px;
-    text-align: justify;
+    padding-top: 61.7%;
+    text-align: center;
     background-color: #a1d5b7;
-}
+    width: 100%;
 
-#footer {
-    height: 81.9px;
-    background-color: #a1d5b7;
 }
 
 /* div.debug {
     border: 1px solid #f0f;
-} */
+}
 /* Uncomment the block above to see the debug. */
