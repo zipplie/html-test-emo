@@ -1,6 +1,5 @@
 html, body {
-    width: 99.3%;
-    padding: 0px;
+    width: 100%;
     background-color: gray;
     align-items: center;
 }
@@ -10,45 +9,78 @@ html, body {
 }
 
 #header {
-    background-color: #a1d5b7;
+    background-color: #453d52;
     height: 64px;
-    padding: 10px 0px 0px 0px;
     width: 100%;
+
+}
+
+.github_zipplie img {
+    width: 24px;
+    position:relative;
+    left: 900px;
+    top: -60px;
+}
+
+
+
+.github_zarkone img {
+    width: 24px;
+    position: relative;
+    left: 900px;
+    top: -55px;
+}
+
+
+
+#logo {
+    color: #14b814;
+    font-family: 'VT323', monospace;
+    font-size: 30pt;
+    padding-left: 25px;
+    padding-top: 5px;
 }
 
 #menu {
-    height: 35px;
-    background-color: #a8c1b4;
+    height: 40px;
+    background-color: gray;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 5px;
     width: 100%;
 }
 
-#menu a, #menu span {
-    font-size: 19pt;
+#menu a {
+    font-size: 25pt;
+    font-family: 'VT323', monospace;
     text-decoration: none;
     padding: 15px;
-    color: #000;
-    border-radius: 9px;
+    color: #453d52;
     width: 100%;
+}
+
+#menu span {
+  font-size: 25pt;
+  font-family: 'VT323', monospace;
+  text-decoration: none;
+  padding: 15px;
+  color: #453d52;
+  width: 100%;
+  border-style: dashed;
 }
 
 #menu a:hover, #menu span {
-    background: #FBCEB1;
+    font-family: 'VT323', monospace;
     color: #000;
     text-decoration: none;
-    font-weight: bold;;
+    font-weight: bold;
     width: 100%;
-
+    color: #14b814;
 }
 
 #content {
     padding-top: 100%;
     text-align: center;
-    background-color: #a1d5b7;
+    background-color: #453d52;
     width: 100%;
-
 }
 
 /* div.debug {
