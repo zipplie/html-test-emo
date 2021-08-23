@@ -2,6 +2,20 @@ html, body {
     width: 100%;
     background-color: gray;
     align-items: center;
+    font-family: 'VT323', monospace;
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+#logo, a {
+color: #14b814;
+font-size: 35pt;
+padding-left: 10px;
+text-decoration: none;
 }
 
 #wrapper {
@@ -17,28 +31,24 @@ html, body {
 .github_zipplie a {
     float: right;
     margin-right: 100px;
-    margin-top: -80px;
-    font-family: 'VT323', monospace;
+    margin-top: -89px;
     font-size: 20pt;
-    color: #70d1f4;
+    color: #70d7f4;
     text-decoration: none;
 }
 
 .github_zipplie a:hover {
     float: right;
     margin-right: 100px;
-    margin-top: -80px;
-    font-family: 'VT323', monospace;
     font-size: 20pt;
-    color: #70b7f4;
+    color: #3db4c7;
     text-decoration: none;
 }
 
 .github_zarkone a {
     float: right;
     margin-right: 100px;
-    margin-top: -50px;
-    font-family: 'VT323', monospace;
+    margin-top: -59px;
     font-size: 20pt;
     color: #70d1f4;
     text-decoration: none;
@@ -47,10 +57,9 @@ html, body {
 .github_zarkone a:hover {
     float: right;
     margin-right: 100px;
-    margin-top: -50px;
-    font-family: 'VT323', monospace;
+    margin-top: -59px;
     font-size: 20pt;
-    color: #70b7f4;
+    color: #3db4c7;
     text-decoration: none;
 }
 
@@ -62,14 +71,6 @@ img {
     top: -61px;
 }
 
-#logo {
-    color: #14b814;
-    font-family: 'VT323', monospace;
-    font-size: 30pt;
-    padding-left: 25px;
-    padding-top: 5px;
-}
-
 #menu {
     height: 30px;
     background-color: gray;
@@ -79,17 +80,14 @@ img {
 
 #menu a {
     font-size: 25pt;
-    font-family: 'VT323', monospace;
     text-decoration: none;
     padding: 18.5px;
     color: #453d52;
-    width: 100%;
     position: relative;
     top:-10px;
 }
 
 #menu span {
-    font-family: 'VT323', monospace;
     text-decoration: none;
     font-weight: bold;
     width: 100%;
@@ -102,7 +100,6 @@ img {
 }
 
 #menu a:hover {
-  font-family: 'VT323', monospace;
   text-decoration: none;
   font-weight: bold;
   width: 100%;
@@ -113,9 +110,37 @@ img {
   border-style: dashed
 }
 
-#content {
+#attention a {
+    position: absolute;
+    top: 160px;
+    right: 215px;
+    color: #90ee90;
+    font-size: 25px;
+
+}
+
+.content {
     padding-top: 100%;
-    text-align: center;
     background-color: #453d52;
     width: 100%;
+}
+
+.content #zipplie_site {
+    width: 1024px;
+    height: 396px;
+    background-color: #000;
+    position: absolute;
+    top: 200px;
+    right: 110px;
+}
+
+.content #zipplie_site h2 {
+    color: #14b814;
+    padding-left: 10px;
+}
+
+.content #zipplie_site h1, a {
+    color: white;
+    text-align: center;
+    color: #90ee90;
 }
