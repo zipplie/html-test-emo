@@ -1,0 +1,131 @@
+html, body {
+    width: 100%;
+    background-color: gray;
+    align-items: center;
+}
+
+#logo,a {
+color: #14b814;
+font-family: 'VT323', monospace;
+font-size: 30pt;
+padding-left: 12.38px;
+padding-top: 10px;
+text-decoration: none;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#header {
+    background-color: #453d52;
+    height: 64px;
+    width: 100%;
+}
+
+.github_zipplie a {
+    float: right;
+    margin-right: 92px;
+    margin-top: -90px;
+    font-family: 'VT323', monospace;
+    font-size: 20pt;
+    color: #70d7f4;
+    text-decoration: none;
+}
+
+.github_zipplie a:hover {
+    float: right;
+    margin-right: 92px;
+    margin-top: -90px;
+    font-family: 'VT323', monospace;
+    font-size: 20pt;
+    color: #3db4c7;
+    text-decoration: none;
+}
+
+.github_zarkone a {
+    float: right;
+    margin-right: 92px;
+    margin-top: -60px;
+    font-family: 'VT323', monospace;
+    font-size: 20pt;
+    color: #70d1f4;
+    text-decoration: none;
+}
+
+.github_zarkone a:hover {
+    float: right;
+    margin-right: 92px;
+    margin-top: -60px;
+    font-family: 'VT323', monospace;
+    font-size: 20pt;
+    color: #3db4c7;
+    text-decoration: none;
+}
+
+img {
+    width: 60px;
+    float: right;
+    position: relative;
+    right: 380px;
+    top: -61px;
+}
+
+.logo span {
+    color: #14b814;
+    font-family: 'VT323', monospace;
+    font-size: 35pt;
+    padding-left: 20px;
+    padding-top: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#menu {
+    height: 30px;
+    background-color: gray;
+    text-align: center;
+    width: 100%;
+}
+
+#menu a {
+    font-size: 25pt;
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+    padding: 18.5px;
+    color: #453d52;
+    width: 100%;
+    position: relative;
+    top:-10px;
+}
+
+#menu span {
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    color: #14b814;
+    padding:19.5px;
+    position: relative;
+    top:-11px;
+    border-style: dashed;
+    font-size: 25pt;
+}
+
+#menu a:hover {
+  font-family: 'VT323', monospace;
+  text-decoration: none;
+  font-weight: bold;
+  width: 100%;
+  color: #14b814;
+  padding-top:20px;
+  position: relative;
+  top:-10px;
+  border-style: dashed
+}
+
+.content {
+    padding-top: 100%;
+    background-color: #453d52;
+    width: 100%;
+}
